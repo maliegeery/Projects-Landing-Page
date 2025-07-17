@@ -1,0 +1,124 @@
+/*CHANGE COVER PHOTOS HERE!!!*/
+#project-1 {
+    background-image: url("media/gettingstarted.png");
+    background-size: cover;
+}
+
+#project-2 {
+    background-image: url("media/Covers.png");
+    background-size: cover;
+}
+
+#project-last {
+    background-image: url("media/GitHub.png");
+    background-size: cover;
+}
+
+/*DO NOT TOUCH*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Outfit", sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a2cde6;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#projheading {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    left: 0%;
+    width: 100%;
+    height: 10vh;
+    font-size: 80px;
+    color: #fff;
+    font-family: "Source Serif 4", serif;
+    padding-top: 0px;
+}
+
+.project {
+    border-radius: 30px;
+    padding: 80px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+    position: relative;
+    margin-top: 135px;
+
+    font-family: "DM Serif Display", serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #166b53;
+    flex-basis: calc(33.33% - 45px);
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+}
+
+.projectspage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    width: 90%;
+    min-height: 78vh;
+}
+
+.overlay {
+    position: absolute;
+    border-radius: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #fff;
+}
+
+.overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.text {
+    color: #0079bf;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.gotoproject {
+    color: #0079bf;
+    font-size: 15px;
+    font-family: "Source Serif 4", serif;
+    border-radius: 30px;
+    width: 25%;
+    height: 15%;
+    background-color: #fff;
+    border-color: #0079bf;
+}
