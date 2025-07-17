@@ -14,13 +14,9 @@
 <body>
     <div class="container" id="home">
         <div id="image"></div>
-        <button class="openbtn" onclick="openNav()">&#9776;</button>
+        <button id = "openbutton" class="openbtn" onclick="openNav()">&#9776;</button>
         <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
             <a href="">Map</a>
             <a href="">Textbook Reader</a>
             <a href="/Users/maliegeery/Comp Sci/Poggio/Malie's Work/Projected Coordinates/jstesting.html">Coordinate Converter</a>
@@ -29,12 +25,14 @@
         <script>
             /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
             function openNav() {
-                document.getElementById("mySidebar").style.width = "250px";
+                document.getElementById("mySidebar").style.width = "300px";
+                document.getElementById("openbutton").style.opacity = 0;
             }
 
             /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
             function closeNav() {
                 document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("openbutton").style.opacity = 1;
             }
         </script>
 
