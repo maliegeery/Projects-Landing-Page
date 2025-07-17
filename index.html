@@ -6,17 +6,38 @@
     <link rel="stylesheet" href="homepage.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="container" id="home">
         <div id="image"></div>
-        <div id="menubar">
-            <a href="" id="menu-map" class="menu">Map</a>
-            <a href="" id="menu-textbook" class="menu">Textbook Reader</a>
-            <a href="/Users/maliegeery/Comp Sci/Poggio/Malie's Work/Projected Coordinates/jstesting.html" id="menu-coords" class="menu">Coordinate Converter</a>
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+            <a href="" id="menu-map"">Map</a>
+            <a href="" id=" menu-textbook">Textbook Reader</a>
+            <a href="/Users/maliegeery/Comp Sci/Poggio/Malie's Work/Projected Coordinates/jstesting.html"
+                id="menu-coords">Coordinate Converter</a>
         </div>
+
+        <script>
+            /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+            function openNav() {
+                document.getElementById("mySidebar").style.width = "250px";
+            }
+
+            /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+            function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+            }
+        </script>
 
         <div id="pagebody">
             <div class="headings">
