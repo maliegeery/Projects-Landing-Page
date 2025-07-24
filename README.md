@@ -4,7 +4,7 @@
 Welcome! This Github repository is used to store and update all of the data science projects done by students at Poggio Civitate. If you want to look through code, please read through the **Navigating** section first. If you are trying to add your own code, please read the **Editing** section before getting started.
 
 ### Navigating
-The organization of this repository is simple to navigate through. The **projectslandingpage** is where the **index** file is for this project, as well as the HTML and CSS for the **projects** page.
+The organization of this repository is simple to navigate through. The index file is the home page, the other HTML file holds all the data science projects.
 
 The other folders each hold the code for one of the data science projects.
 
